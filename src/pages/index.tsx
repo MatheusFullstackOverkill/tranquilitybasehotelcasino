@@ -21,6 +21,10 @@ export default function Home() {
           With colored old grey whistle test lights
         </p>
       </div>
+      <div className='section rooms'></div>
+      <div className='section casino'></div>
+      <div className='section entertainment'></div>
+      <footer></footer>
     </Page>
   )
 }
