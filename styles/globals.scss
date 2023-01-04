@@ -1,5 +1,14 @@
 @import '~bootstrap/scss/bootstrap.scss';
 
+@import './home.scss';
+
+@import './variables.scss';
+
+@font-face {
+  font-family: 'album font';
+  src: url(../public/assets/fonts/tb.otf);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,8 +21,6 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-@import './variables.scss';
-
 h1, h2, h3, h4, p, b, a {
   line-height: 1;
 }
@@ -23,12 +30,19 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.tranquility-font {
+  text-transform: uppercase;
+  font-family: 'album font';
+}
+
+.content {
+  max-width: 1000px;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+  overflow: auto;
 }

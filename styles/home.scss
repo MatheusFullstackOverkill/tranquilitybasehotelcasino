@@ -1,0 +1,15 @@
+.page.home {
+    .intro {
+        background-image: url(../public/assets/images/hotel.jpg);
+        background-repeat: no-repeat;
+        background-position: center 30vh;
+        background-size: 65vw;
+        background-color: #060606;
+        h1 {
+            font-size: 80px;
+            color: white;
+            text-align: center;
+            margin-top: 10vh;
+        }
+    }
+}
