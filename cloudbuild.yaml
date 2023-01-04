@@ -1,3 +1,9 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'us-central1-docker.pkg.dev/${PROJECT_ID}/my-docker-repo/tranquility-image', '.']
+  args: [
+    'build', 
+    '--no-cache', 
+    '-t', 
+    '$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA', 
+    '.'
+  ]
