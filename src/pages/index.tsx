@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className='w-100 mt-4 mb-2 d-flex flex-column align-items-center'>
           <h2>FOUR STARS OUT OF FIVE!</h2>
-          <b><i>And that's unheard of...</i></b>
+          <b><i>And that&apos;s unheard of...</i></b>
         </div>
       </div>
       <div className='section rooms'>
