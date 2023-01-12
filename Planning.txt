@@ -1,0 +1,34 @@
+Banner (slider?)
+Intro
+Rooms
+Casino
+Interlude? (maby some image, or parallax)
+Entertainment
+    Meteor strike
+    virtual reality mask
+    Hokey Cokey
+    Day spa
+Services
+    Breakfest
+    Lunch
+    delivery of flowers and gifts
+    getting a booking in a restaurant
+    Bottle of champagne for special situations
+Location
+Contact
+Footer
+
+Concepts
+    The ultracheese
+    Transportation throgh a hole in the ground with a hand held device
+
+Possible animations
+    Meteor strike
+    Moon mountains ex: https://kprverse.com/
+    Parallax between images and text ex: 
+        https://www.studiorhe.com/, 
+        https://pasticceriaverona.it/, 
+        https://www.totem-madrid.com/,
+        https://porto-128.webflow.io/,
+        https://www.hoteldeshorlogers.com/en,
+        https://www.belarosa-chalet.ch/

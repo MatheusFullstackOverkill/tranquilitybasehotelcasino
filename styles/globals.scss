@@ -46,3 +46,14 @@ a {
   min-height: 100vh;
   overflow: auto;
 }
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  img {
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
