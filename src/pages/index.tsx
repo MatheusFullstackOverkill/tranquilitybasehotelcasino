@@ -8,7 +8,7 @@ export default function Home() {
         <h1 className='tranquility-font'>TRANQUILITY BASE<br/> HOTEL & CASINO</h1>
       </div>
       <div className='section intro content d-flex flex-column align-items-center py-5'>
-        <h1 className='d-block mb-4'>Take it easy for a little while...</h1>
+        <h1 className='d-block mb-4'>Take it easy for a little while</h1>
         <div className='w-100 d-flex flex-row'>
           <div className='img-container'>
             <img src='assets/images/pexels-pixabay-53464.jpg'/>
