@@ -32,7 +32,7 @@ images:
   - '$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA'
 options:
   substitutionOption: ALLOW_LOOSE
-  machineType: e2-medium
+  machineType: N1_HIGHCPU_8
 substitutions:
   _SERVICE_NAME: tranquilitybasehotelcasino
   _DEPLOY_REGION: us-central1
