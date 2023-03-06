@@ -67,7 +67,7 @@ export default function Home() {
           </div>
           <p>
             All the nights that never happened<br/>
-            And the days that don't exist<br/>
+            And the days that don&rsquo;t exist<br/>
             At the information action ratio<br/>
             Only time that we stop laughing<br/>
             Is to breathe or steal a kiss<br/>
