@@ -1,12 +1,45 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Page } from '../components/Page'
 
 export default function Home() {
+
+  useEffect(() => {
+    const canvas = document.querySelector('canvas') as HTMLCanvasElement;
+    canvas.width = 1000;
+    canvas.height = 1000;
+    canvas.style.width = '1000px';
+    canvas.style.height = '1000px';
+    const ctx = canvas.getContext('2d') as CanvasRenderingContext2D;
+    var img = new Image;
+    img.src = 'assets/images/pexels-pixabay-53464.jpg';
+    img.width = 1000;
+    img.height = 1000;
+    img.onerror = e => {
+      console.log(e);
+    };
+    img.onload = (e) => {
+      console.log(e);
+      ctx.beginPath();
+      ctx.lineTo(50,0);
+      ctx.lineTo(200,0);
+      ctx.lineTo(250,50);
+      ctx.lineTo(250,100);
+      ctx.lineTo(200,150);
+      ctx.lineTo(50,150);
+      ctx.lineTo(0,100);
+      ctx.lineTo(0,50);
+      ctx.closePath();
+      ctx.clip();
+      ctx.drawImage(img, 0, 0);
+    };
+  }, [])
+  
   return (
     <Page className='home'>
       <div className='section banner'>
         <h1 className='tranquility-font'>TRANQUILITY BASE<br/> HOTEL & CASINO</h1>
       </div>
+      <canvas/>
       <div className='section intro content d-flex flex-column align-items-center py-5'>
         <h1 className='d-block mb-4'>Take it easy for a little while...</h1>
         <div className='w-100 d-flex flex-row'>
@@ -28,8 +61,19 @@ export default function Home() {
           </div>
         </div>
         <div className='w-100 mt-4 mb-2 d-flex flex-column align-items-center'>
-          <h2>FOUR STARS OUT OF FIVE!</h2>
-          <b><i>And that&apos;s unheard of...</i></b>
+          <div className='mb-2'>
+            <h2>FOUR STARS OUT OF FIVE!</h2>
+            <b><i>And that&apos;s unheard of...</i></b>
+          </div>
+          <p>
+            All the nights that never happened<br/>
+            And the days that don't exist<br/>
+            At the information action ratio<br/>
+            Only time that we stop laughing<br/>
+            Is to breathe or steal a kiss<br/>
+            I can get you on the list for all the clubs<br/>
+            I can lift you up another semitone<br/>
+          </p>
         </div>
       </div>
       <div className='section rooms'>

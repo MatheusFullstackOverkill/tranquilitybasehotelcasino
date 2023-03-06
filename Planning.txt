@@ -1,13 +1,18 @@
+Loading
 Banner (slider?)
-Intro
-Rooms
+Intro 
+    - animation of rocket going to space
+    - animation of 4 stars popping
+Rooms - animation of corridor aproaching, rooms showing
 Casino
 Interlude? (maby some image, or parallax)
 Entertainment
-    Meteor strike
+    Meteor strike - animation of meteor strike
     virtual reality mask
     Hokey Cokey
     Day spa
+    The Martini Police
+    Kiss me underneath the moon's side boob
 Services
     Breakfest
     Lunch
@@ -21,6 +26,7 @@ Footer
 Concepts
     The ultracheese
     Transportation throgh a hole in the ground with a hand held device
+    Sci-fy Retro
 
 Possible animations
     Meteor strike
