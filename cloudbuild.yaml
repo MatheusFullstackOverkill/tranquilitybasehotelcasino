@@ -22,6 +22,12 @@ steps:
       - '$_SERVICE_NAME'
       - '--image'
       - '$_GCR_HOSTNAME/$PROJECT_ID/$REPO_NAME/$_SERVICE_NAME:$COMMIT_SHA'
+      - '--region'
+      - '$_DEPLOY_REGION'
+      - '--memory'
+      - '8Gi'
+      - '--cpu'
+      - '4'
       # - run
       # - services
       # - update
